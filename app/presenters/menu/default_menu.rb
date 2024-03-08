@@ -78,7 +78,7 @@ module Menu
           Menu::Item.new('ems_cloud',           N_('Providers'),          'ems_cloud',           {:feature => 'ems_cloud_show_list'},             '/ems_cloud/show_list'),
           Menu::Item.new('availability_zone',   N_('Availability Zones'), 'availability_zone',   {:feature => 'availability_zone_show_list'},     '/availability_zone/show_list'),
           Menu::Item.new('host_aggregate',      N_('Host Aggregates'),    'host_aggregate',      {:feature => 'host_aggregate_show_list'},        '/host_aggregate/show_list'),
-          Menu::Item.new('cloud_tenant',        N_('Tenants'),            'cloud_tenant',        {:feature => 'cloud_tenant_show_list'},          '/cloud_tenant/show_list'),
+          Menu::Item.new('cloud_tenant',        N_('Cloud Tenants'),      'cloud_tenant',        {:feature => 'cloud_tenant_show_list'},          '/cloud_tenant/show_list'),
           Menu::Item.new('flavor',              N_('Flavors'),            'flavor',              {:feature => 'flavor_show_list'},                '/flavor/show_list'),
           Menu::Item.new('vm_cloud',            N_('Instances'),          'vm_cloud_explorer',   {:feature => 'vm_cloud_explorer', :any => true}, '/vm_cloud/explorer'),
           Menu::Item.new('orchestration_stack', N_('Stacks'),             'orchestration_stack', {:feature => 'orchestration_stack_show_list'},   '/orchestration_stack/show_list'),
